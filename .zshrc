@@ -63,6 +63,7 @@ source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 export EDITOR="code-insiders -n -w"
 
 export HOMEBREW_GITHUB_API_TOKEN=$(cat $HOME/.github-api-token.txt)
+export PARADOX_GITHUB_TOKEN=$(cat $HOME/.paradox-github-token.txt)
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
@@ -82,4 +83,6 @@ alias firefox="/Applications/Firefox.app/Contents/MacOS/firefox-bin -P"
 alias codeterraform="code-insiders /Volumes/Work/Repos/CarLabs/terraform"
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+# emacs --daemon -q
 
