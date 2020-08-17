@@ -62,7 +62,7 @@ source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 export EDITOR="code-insiders -n -w"
 
-export HOMEBREW_GITHUB_API_TOKEN=7a20a87c96050e35a09f6d7f9e9ca115955763a6
+export HOMEBREW_GITHUB_API_TOKEN=$(cat $HOME/.github-api-token.txt)
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
