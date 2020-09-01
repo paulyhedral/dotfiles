@@ -86,5 +86,6 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 
 # emacs --daemon -q
 
+eval "$(anyenv init -)"
 eval "$(starship init zsh)"
 
