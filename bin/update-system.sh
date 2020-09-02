@@ -7,14 +7,14 @@ system=$(hostname -s | tr "[:upper:]" "[:lower:]")
 pushd $datadir
 
 #brew upgrade
-topgrade -c --no-retry -y --disable go
-brew cask upgrade
+topgrade -c --no-retry -y --disable go system
+#brew cask upgrade
 brew cleanup
 # brew list | fold > brew-recipes-$system.txt
 # brew cask list | fold > brew-cask-recipes-$system.txt
 brew bundle dump --global -f
 cp ~/.Brewfile .
-sudo gem update -N
+#sudo gem update -N
 sudo gem list --local | awk '{print $1}' > gem-list-$system.txt
 mas list > mas-applications-$system.txt
 code --list-extensions > vscode-extensions-$system.txt
