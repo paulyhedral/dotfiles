@@ -73,12 +73,11 @@ eval "$(direnv hook zsh)"
 
 export FG_HOME="${HOME}/Dropbox/SmiteWorks/Fantasy Grounds"
 
-export GOPATH=/Volumes/Work/Repos/Go
-
 # Aliases
 
 alias fgclient="open -n -b 'unity.SmiteWorks.Fantasy Grounds'"
 alias workdir="cd /Volumes/Work/Home"
+alias workrepos="cd $HOME/Dropbox/Work/CarLabs/Repos/CarLabs"
 alias firefox="/Applications/Firefox.app/Contents/MacOS/firefox-bin -P"
 alias codeterraform="code-insiders /Volumes/Work/Repos/CarLabs/terraform"
 
@@ -88,4 +87,10 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 
 eval "$(anyenv init -)"
 eval "$(starship init zsh)"
+
+#export GOPATH=${HOME}/Dropbox/Dev/Code/Go
+#echo $GOPATH
+unset GOPATH
+#go env -w GOPATH=$(goenv prefix)
+export GOPATH=$(goenv prefix)
 

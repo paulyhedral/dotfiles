@@ -3,10 +3,12 @@
 set -x
 set -e
 
+scriptdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" >/dev/null 2>&1 && pwd)"
+
 open /Applications/Spark.app
 open /Applications/Slack.app
-osascript slack.scpt
-/Applications/Firefox.app/Contents/MacOS/firefox-bin -P CarLabs > /dev/null 2>&1 &
+osascript "$scriptdir/slack.scpt"
+open "/Applications/Waterfox Current.app"
 open "/Applications/Google Chrome.app"
-osascript chrome.scpt
-
+osascript "$scriptdir/chrome.scpt"
+open "/Applications/Lens.app"
