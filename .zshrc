@@ -76,7 +76,7 @@ export FG_HOME="${HOME}/Dropbox/SmiteWorks/Fantasy Grounds"
 # Aliases
 
 alias fgclient="open -n -b 'unity.SmiteWorks.Fantasy Grounds'"
-alias workdir="cd /Volumes/Work/Home"
+alias workdir="cd $HOME/Dropbox/Work/CarLabs/Home"
 alias workrepos="cd $HOME/Dropbox/Work/CarLabs/Repos/CarLabs"
 alias firefox="/Applications/Firefox.app/Contents/MacOS/firefox-bin -P"
 alias codeterraform="code-insiders /Volumes/Work/Repos/CarLabs/terraform"
@@ -87,10 +87,16 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 
 eval "$(anyenv init -)"
 eval "$(starship init zsh)"
+eval "$(swift package completion-tool generate-zsh-script)"
 
 #export GOPATH=${HOME}/Dropbox/Dev/Code/Go
 #echo $GOPATH
 unset GOPATH
 #go env -w GOPATH=$(goenv prefix)
 export GOPATH=$(goenv prefix)
+
+# These are here because python-build chokes otherwise
+export SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk
+export MACOSX_DEPLOYMENT_TARGET=10.15
+export PYTHON_CONFIGURE_OPTS="--enable-framework"
 
