@@ -87,7 +87,7 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 
 eval "$(anyenv init -)"
 eval "$(starship init zsh)"
-eval "$(swift package completion-tool generate-zsh-script)"
+#eval "$(swift package completion-tool generate-zsh-script)"
 source $HOME/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $HOME/.zsh/history.zsh
 
