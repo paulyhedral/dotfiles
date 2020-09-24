@@ -60,7 +60,8 @@ bindkey -e
 
 source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-export EDITOR="code-insiders -n -w"
+#export EDITOR="code-insiders -n -w"
+export EDITOR="/usr/local/bin/nova -w"
 
 export HOMEBREW_GITHUB_API_TOKEN=$(cat $HOME/.github-api-token.txt)
 export PARADOX_GITHUB_TOKEN=$(cat $HOME/.paradox-github-token.txt)
@@ -80,6 +81,7 @@ alias workdir="cd $HOME/Dropbox/Work/CarLabs/Home"
 alias workrepos="cd $HOME/Dropbox/Work/CarLabs/Repos/CarLabs"
 alias firefox="/Applications/Firefox.app/Contents/MacOS/firefox-bin -P"
 alias codeterraform="code-insiders /Volumes/Work/Repos/CarLabs/terraform"
+alias devdir="cd /Volumes/Quickbeam/Dev/Code"
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
