@@ -422,7 +422,6 @@ brew "pwgen"
 brew "py2cairo"
 brew "pyenv"
 brew "pyinvoke"
-brew "python-yq"
 brew "qt"
 brew "quicktype"
 brew "rakudo-star"
@@ -543,7 +542,7 @@ brew "yamllint"
 brew "yara"
 brew "ydiff"
 brew "yj"
-brew "yq", link: false
+brew "yq"
 brew "zabbix-cli"
 brew "zeek"
 brew "zlib"
@@ -591,6 +590,7 @@ cask "discord"
 cask "docker"
 cask "dotnet"
 cask "doxygen"
+cask "drivethrurpg"
 cask "dropbox"
 cask "emacs"
 cask "epic-games"
@@ -676,6 +676,7 @@ cask "texstudio"
 cask "transmission"
 cask "transmit"
 cask "tunnelblick"
+cask "unclutter"
 cask "unetbootin"
 cask "unity"
 cask "unity-hub"
@@ -689,8 +690,10 @@ cask "waterfox-current"
 cask "wireshark"
 cask "zerotier-one"
 mas "Amphetamine", id: 937984704
+mas "Apple Configurator 2", id: 1037126344
 mas "Bear", id: 1091189122
 mas "Bible Study", id: 472790630
+mas "Classroom", id: 1358883623
 mas "Developer", id: 640199958
 mas "GarageBand", id: 682658836
 mas "GIPHY CAPTURE", id: 668208984
