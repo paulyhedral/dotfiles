@@ -93,7 +93,7 @@ eval "$(starship init zsh)"
 source $HOME/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $HOME/.zsh/history.zsh
 
-#export GOPATH=${HOME}/Dropbox/Dev/Code/Go
+#export GOPATH=${HOME}/Dev/Code/Go
 #echo $GOPATH
 unset GOPATH
 #go env -w GOPATH=$(goenv prefix)

@@ -74,7 +74,7 @@ brew "fontconfig"
 brew "lzo"
 brew "pixman"
 brew "cairo"
-brew "libsigc++@2"
+brew "libsigc++@2", link: false
 brew "cairomm"
 brew "carthage"
 brew "catimg"
@@ -352,6 +352,7 @@ brew "libuv"
 brew "libvterm"
 brew "linkerd"
 brew "lldpd"
+brew "lmod"
 brew "logstash"
 brew "loki"
 brew "lorem"
@@ -702,8 +703,13 @@ mas "Key Codes", id: 414568915
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
+mas "PaintCode", id: 808809998
+mas "Prepo", id: 476533227
 mas "Proelia", id: 515732997
+mas "Realm Browser", id: 1007457278
+mas "Receigen", id: 452840086
 mas "Spark", id: 1176895641
 mas "Vectornator Pro", id: 1470168007
 mas "Xcode", id: 497799835
 mas "Xcode", id: 497799835
+mas "xScope", id: 447661441
