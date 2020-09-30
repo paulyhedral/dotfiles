@@ -14,6 +14,7 @@ brew cleanup
 # brew cask list | fold > brew-cask-recipes-$system.txt
 brew bundle dump --global -f
 cp ~/.Brewfile .
+yadm add .Brewfile
 #sudo gem update -N
 sudo gem list --local | awk '{print $1}' > gem-list-$system.txt
 mas list > mas-applications-$system.txt

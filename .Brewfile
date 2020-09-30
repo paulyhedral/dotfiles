@@ -701,6 +701,7 @@ mas "GIPHY CAPTURE", id: 668208984
 mas "iMovie", id: 408981434
 mas "Key Codes", id: 414568915
 mas "Keynote", id: 409183694
+mas "Microsoft Remote Desktop", id: 1295203466
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "PaintCode", id: 808809998
