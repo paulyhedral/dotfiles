@@ -82,6 +82,7 @@ alias workrepos="cd $HOME/Dropbox/Work/CarLabs/Repos/CarLabs"
 alias firefox="/Applications/Firefox.app/Contents/MacOS/firefox-bin -P"
 alias codeterraform="code-insiders /Volumes/Work/Repos/CarLabs/terraform"
 alias devdir="cd $HOME/Dev/Code"
+alias mcdir="open ~/Dropbox/Minecraft/Profiles/Paul"
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
