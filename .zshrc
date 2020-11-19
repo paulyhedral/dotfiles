@@ -101,7 +101,7 @@ unset GOPATH
 export GOPATH=$(goenv prefix)
 
 # These are here because python-build chokes otherwise
-export SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk
-export MACOSX_DEPLOYMENT_TARGET=10.15
+export SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk
+export MACOSX_DEPLOYMENT_TARGET=11.0
 export PYTHON_CONFIGURE_OPTS="--enable-framework"
 

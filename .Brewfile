@@ -11,7 +11,6 @@ tap "homebrew/services"
 tap "stripe/stripe-cli"
 tap "ubuntu/microk8s"
 tap "vapor/tap"
-cask "adoptopenjdk8"
 cask "osxfuse"
 brew "ack"
 brew "act"
@@ -190,8 +189,21 @@ brew "file-formula"
 brew "filebeat", restart_service: true
 brew "firebase-cli"
 brew "flex"
+brew "flux"
 brew "fluxctl"
 brew "fn"
+brew "ghostscript", link: false
+brew "gnu-getopt"
+brew "ilmbase"
+brew "libde265"
+brew "xmlto"
+brew "shared-mime-info"
+brew "libheif"
+brew "liblqr"
+brew "libomp"
+brew "openexr"
+brew "imagemagick"
+brew "folderify"
 brew "fonttools"
 brew "fortio"
 brew "fortune"
@@ -212,11 +224,9 @@ brew "geckodriver"
 brew "getdns"
 brew "gflags"
 brew "gh"
-brew "ghostscript", link: false
 brew "git"
 brew "git-credential-manager"
 brew "git-extras"
-brew "gnu-getopt"
 brew "git-flow-avh"
 brew "git-lfs"
 brew "libassuan"
@@ -283,15 +293,6 @@ brew "libplist"
 brew "libusbmuxd"
 brew "libimobiledevice"
 brew "ifuse"
-brew "ilmbase"
-brew "libde265"
-brew "xmlto"
-brew "shared-mime-info"
-brew "libheif"
-brew "liblqr"
-brew "libomp"
-brew "openexr"
-brew "imagemagick"
 brew "imagemagick@6"
 brew "infracost"
 brew "intltool"
@@ -415,6 +416,7 @@ brew "postgresql@9.6"
 brew "prettier"
 brew "prips"
 brew "procs"
+brew "prometheus"
 brew "proselint"
 brew "protobuf-c"
 brew "prototool"
@@ -572,6 +574,7 @@ cask "acorn"
 cask "adobe-acrobat-reader"
 cask "adobe-connect"
 cask "adoptopenjdk"
+cask "adoptopenjdk8"
 cask "amazon-chime"
 cask "aws-vault"
 cask "backblaze"
@@ -680,13 +683,7 @@ mas "Key Codes", id: 414568915
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
-mas "PaintCode", id: 808809998
-mas "Prepo", id: 476533227
 mas "Proelia", id: 515732997
-mas "Realm Browser", id: 1007457278
-mas "Receigen", id: 452840086
 mas "Spark", id: 1176895641
 mas "Vectornator Pro", id: 1470168007
 mas "Xcode", id: 497799835
-mas "Xcode", id: 497799835
-mas "xScope", id: 447661441
