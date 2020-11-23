@@ -39,7 +39,7 @@ brew "argocd"
 brew "gettext"
 brew "libffi"
 brew "glib"
-brew "python@3.8", link: true
+brew "python@3.8"
 brew "atk"
 brew "openjdk"
 brew "atlassian-cli"
