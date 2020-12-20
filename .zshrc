@@ -60,8 +60,8 @@ bindkey -e
 
 source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-#export EDITOR="code-insiders -n -w"
-export EDITOR="/usr/local/bin/nova -w"
+export EDITOR="code-insiders -n -w"
+#export EDITOR="/usr/local/bin/nova -w"
 
 export HOMEBREW_GITHUB_API_TOKEN=$(cat $HOME/.github-api-token.txt)
 export PARADOX_GITHUB_TOKEN=$(cat $HOME/.paradox-github-token.txt)
