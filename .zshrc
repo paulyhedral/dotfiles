@@ -101,7 +101,10 @@ unset GOPATH
 export GOPATH=$(goenv prefix)
 
 # These are here because python-build chokes otherwise
-export SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk
-export MACOSX_DEPLOYMENT_TARGET=11.0
+sdkinfo=$(xcodebuild -showsdks -json | jq -j '.[] | select(.displayName | startswith("macOS"))')
+#export SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk
+export SDKROOT=$(echo $sdkinfo | jq -j '.sdkPath')
+#export MACOSX_DEPLOYMENT_TARGET=11.0
+export MACOSX_DEPLOYMENT_TARGET=$(echo $sdkinfo | jq -j '.sdkVersion')
 export PYTHON_CONFIGURE_OPTS="--enable-framework"
 

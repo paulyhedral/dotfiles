@@ -673,3 +673,62 @@ cask "waterfox-current"
 cask "wireshark"
 cask "xquartz"
 cask "zerotier-one"
+mas "Amphetamine", id: 937984704
+mas "Amphetamine", id: 937984704
+mas "Bear", id: 1091189122
+mas "Bear", id: 1091189122
+mas "Bear", id: 1091189122
+mas "Bible Study", id: 472790630
+mas "Bible Study", id: 472790630
+mas "Bible Study", id: 472790630
+mas "Bible Study", id: 472790630
+mas "DaisyDisk", id: 411643860
+mas "Developer", id: 640199958
+mas "Developer", id: 640199958
+mas "Fantastical", id: 975937182
+mas "GarageBand", id: 682658836
+mas "GarageBand", id: 682658836
+mas "GIPHY CAPTURE", id: 668208984
+mas "HaTTiP", id: 828152861
+mas "iMovie", id: 408981434
+mas "iMovie", id: 408981434
+mas "iPulse", id: 1028916583
+mas "Key Codes", id: 414568915
+mas "Key Codes", id: 414568915
+mas "Keynote", id: 409183694
+mas "Keynote", id: 409183694
+mas "Linguan", id: 477163052
+mas "Linguan", id: 477163052
+mas "Numbers", id: 409203825
+mas "Numbers", id: 409203825
+mas "Numbers", id: 409203825
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Pages", id: 409201541
+mas "Pages", id: 409201541
+mas "Pages", id: 409201541
+mas "PaintCode", id: 808809998
+mas "PaintCode", id: 808809998
+mas "PDF OCR X Community Edition", id: 571442933
+mas "Prepo", id: 476533227
+mas "Prepo", id: 476533227
+mas "Proelia", id: 515732997
+mas "Proelia", id: 515732997
+mas "Proelia", id: 515732997
+mas "Proelia", id: 515732997
+mas "Proelia", id: 515732997
+mas "Realm Browser", id: 1007457278
+mas "Realm Browser", id: 1007457278
+mas "Receigen", id: 452840086
+mas "Receigen", id: 452840086
+mas "Slack", id: 803453959
+mas "Soulver", id: 413965349
+mas "Spark", id: 1176895641
+mas "Spark", id: 1176895641
+mas "Spark", id: 1176895641
+mas "Vectornator Pro", id: 1470168007
+mas "Xcode", id: 497799835
+mas "Xcode", id: 497799835
+mas "xScope", id: 447661441
+mas "xScope", id: 447661441
+mas "xScope", id: 447661441
