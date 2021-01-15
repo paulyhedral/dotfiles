@@ -72,17 +72,17 @@ export NVM_DIR="$HOME/.nvm"
 
 eval "$(direnv hook zsh)"
 
-export FG_HOME="${HOME}/Dropbox/SmiteWorks/Fantasy Grounds"
+export FG_HOME="${HOME}/SmiteWorks/Fantasy Grounds"
 
 # Aliases
 
 alias fgclient="open -n -b 'unity.SmiteWorks.Fantasy Grounds'"
-alias workdir="cd $HOME/Dropbox/Work/CarLabs/Home"
-alias workrepos="cd $HOME/Dropbox/Work/CarLabs/Repos/CarLabs"
+alias workdir="cd $HOME/Work/CarLabs/Home"
+alias workrepos="cd $HOME/Work/CarLabs/Repos/CarLabs"
 alias firefox="/Applications/Firefox.app/Contents/MacOS/firefox-bin -P"
-alias codeterraform="code-insiders /Volumes/Work/Repos/CarLabs/terraform"
+alias codeterraform="code-insiders $HOME/Work/Repos/CarLabs/terraform"
 alias devdir="cd $HOME/Dev/Code"
-alias mcdir="open ~/Dropbox/Minecraft/Profiles/Paul"
+alias mcdir="open $HOME/Minecraft/Profiles/Paul"
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
