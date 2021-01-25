@@ -49,7 +49,7 @@ plugins=(z git brew npm colorize command-not-found github git-flow jsontools osx
 
 # User configuration
 
-export PATH="/usr/local/texlive/2017/bin/x86_64-darwin:$HOME/bin:$HOME/.krew/bin:$(rbenv prefix)/bin:$(pyenv prefix)/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="$HOME/.binenv:/usr/local/texlive/2017/bin/x86_64-darwin:$HOME/bin:$HOME/.krew/bin:$(rbenv prefix)/bin:$(pyenv prefix)/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
 source $ZSH/oh-my-zsh.sh
 
@@ -71,6 +71,8 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 
 eval "$(direnv hook zsh)"
+eval "$(binenv completion zsh)"
+eval "$(kubecm completion zsh)"
 
 export FG_HOME="${HOME}/SmiteWorks/Fantasy Grounds"
 
