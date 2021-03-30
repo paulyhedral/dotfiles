@@ -90,6 +90,7 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 
 # emacs --daemon -q
 
+eval "$(zoxide init zsh)"
 eval "$(anyenv init -)"
 eval "$(starship init zsh)"
 #eval "$(swift package completion-tool generate-zsh-script)"

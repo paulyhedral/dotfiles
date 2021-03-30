@@ -7,7 +7,7 @@ system=$(hostname -s | tr "[:upper:]" "[:lower:]")
 pushd $datadir
 
 #brew upgrade
-topgrade -c --no-retry -y --disable go system
+topgrade -c --no-retry -y --disable system
 #brew cask upgrade
 brew cleanup
 # brew list | fold > brew-recipes-$system.txt
