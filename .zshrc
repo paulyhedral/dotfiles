@@ -96,6 +96,7 @@ eval "$(starship init zsh)"
 #eval "$(swift package completion-tool generate-zsh-script)"
 source $HOME/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $HOME/.zsh/history.zsh
+eval "$(/usr/libexec/path_helper)"
 
 #export GOPATH=${HOME}/Dev/Code/Go
 #echo $GOPATH
