@@ -7,11 +7,13 @@ system=$(hostname -s | tr "[:upper:]" "[:lower:]")
 pushd $datadir
 
 #brew upgrade
+brew unlink tfenv
 topgrade -c --no-retry -y --disable system
 #brew cask upgrade
 brew cleanup
 # brew list | fold > brew-recipes-$system.txt
 # brew cask list | fold > brew-cask-recipes-$system.txt
+brew link tfenv
 brew bundle dump --global -f
 cp ~/.Brewfile .
 yadm add .Brewfile

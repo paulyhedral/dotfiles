@@ -49,7 +49,7 @@ plugins=(z git brew npm colorize command-not-found github git-flow jsontools osx
 
 # User configuration
 
-export PATH="$HOME/.binenv:/usr/local/texlive/2017/bin/x86_64-darwin:$HOME/bin:$HOME/.krew/bin:$(rbenv prefix)/bin:$(pyenv prefix)/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="$HOME/.binenv:/usr/local/texlive/2017/bin/x86_64-darwin:$HOME/bin:$HOME/.krew/bin:$(rbenv prefix)/bin:$(pyenv prefix)/bin:$HOME/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
 source $ZSH/oh-my-zsh.sh
 
