@@ -49,7 +49,7 @@ plugins=(z git brew npm colorize command-not-found github git-flow jsontools osx
 
 # User configuration
 
-export PATH="$HOME/.binenv:/usr/local/texlive/2017/bin/x86_64-darwin:$HOME/bin:$HOME/.krew/bin:$(rbenv prefix)/bin:$(pyenv prefix)/bin:$HOME/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="$HOME/.binenv:/usr/local/texlive/2017/bin/x86_64-darwin:$HOME/bin:$HOME/.krew/bin:$HOME/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
 source $ZSH/oh-my-zsh.sh
 
@@ -111,4 +111,9 @@ export SDKROOT=$(echo $sdkinfo | jq -j '.sdkPath')
 #export MACOSX_DEPLOYMENT_TARGET=11.0
 export MACOSX_DEPLOYMENT_TARGET=$(echo $sdkinfo | jq -j '.sdkVersion')
 export PYTHON_CONFIGURE_OPTS="--enable-framework"
+
+autoload -U +X bashcompinit && bashcompinit
+complete -o nospace -C /usr/local/bin/vault vault
+
+export KUBECONFIG=~/.kube/caradhras.config
 
