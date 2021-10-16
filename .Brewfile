@@ -13,6 +13,7 @@ tap "jesseduffield/lazydocker"
 tap "jesseduffield/lazygit"
 tap "kudobuilder/tap"
 tap "moncho/dry"
+tap "newrelic/tap"
 tap "robotsandpencils/made"
 tap "stripe/stripe-cli"
 tap "ubuntu/microk8s"
@@ -20,7 +21,6 @@ brew "ack"
 brew "act"
 brew "adns"
 brew "gdbm"
-brew "openssl@1.1"
 brew "readline"
 brew "sqlite"
 brew "xz"
@@ -31,6 +31,10 @@ brew "libgcrypt"
 brew "pcre"
 brew "aide"
 brew "anyenv"
+brew "jpeg"
+brew "libpng"
+brew "libtiff"
+brew "webp"
 brew "argo"
 brew "argocd"
 brew "gettext"
@@ -47,10 +51,7 @@ brew "awsweeper"
 brew "azure-cli"
 brew "icu4c"
 brew "c-ares"
-brew "jemalloc"
-brew "libev"
 brew "libuv"
-brew "nghttp2"
 brew "node"
 brew "balena-cli"
 brew "bartycrouch"
@@ -58,12 +59,11 @@ brew "bash-completion"
 brew "bat"
 brew "openjdk"
 brew "bfg"
-brew "black"
+brew "black", link: false
 brew "boost"
 brew "boost-python3"
 brew "buildkit"
 brew "caf"
-brew "libpng"
 brew "freetype"
 brew "fontconfig"
 brew "pkg-config"
@@ -146,20 +146,21 @@ brew "gnutls"
 brew "gobject-introspection"
 brew "graphite2"
 brew "harfbuzz"
-brew "jpeg"
-brew "libtiff"
+brew "jemalloc"
 brew "little-cms2"
 brew "openjpeg"
-brew "webp"
+brew "libev"
 brew "libsodium"
+brew "nghttp2"
 brew "snappy"
+brew "srt"
 brew "x265"
 brew "zeromq"
 brew "ffsend"
 brew "libmagic"
 brew "file-formula"
+brew "filebeat", restart_service: true
 brew "flex"
-brew "fluxctl"
 brew "fn"
 brew "libidn"
 brew "gnu-getopt"
@@ -194,6 +195,7 @@ brew "gh"
 brew "git"
 brew "git-credential-manager"
 brew "git-extras"
+brew "git-filter-repo"
 brew "git-flow-avh"
 brew "git-lfs"
 brew "libassuan"
@@ -237,6 +239,7 @@ brew "grpcurl"
 brew "openjdk@11"
 brew "gssh"
 brew "gtk+"
+brew "heartbeat"
 brew "helm"
 brew "helm@2"
 brew "helmfile"
@@ -251,6 +254,7 @@ brew "httpx"
 brew "hub"
 brew "hugo"
 brew "imagemagick@6"
+brew "influxdb-cli"
 brew "infracost"
 brew "intltool"
 brew "ipython"
@@ -314,6 +318,7 @@ brew "utf8proc"
 brew "mame"
 brew "mas"
 brew "mdcat"
+brew "metricbeat"
 brew "microplane"
 brew "miller"
 brew "minisign"
@@ -332,6 +337,7 @@ brew "neovim"
 brew "newman"
 brew "nginx"
 brew "ngs"
+brew "nmap"
 brew "nspr"
 brew "nss", link: false
 brew "ocrmypdf"
@@ -348,6 +354,7 @@ brew "pgcli"
 brew "pgformatter"
 brew "pidof"
 brew "pmd"
+brew "poetry"
 brew "popt"
 brew "postgresql"
 brew "prettier"
@@ -368,6 +375,7 @@ brew "rakudo-star"
 brew "rapidjson"
 brew "rclone"
 brew "re2c"
+brew "redis", restart_service: true
 brew "regina-rexx"
 brew "reposurgeon"
 brew "rlwrap"
@@ -411,12 +419,13 @@ brew "swift-sh"
 brew "tbb"
 brew "sysdig"
 brew "talisman"
+brew "telegraf"
 brew "thanos"
 brew "thrift"
 brew "tmux"
 brew "tmuxinator-completion"
 brew "topgrade"
-brew "tox"
+brew "tox", link: false
 brew "transmission-cli"
 brew "trash"
 brew "tunnel"
@@ -459,6 +468,7 @@ brew "fluxcd/tap/flux"
 brew "jesseduffield/lazygit/lazygit"
 brew "kudobuilder/tap/kudo-cli"
 brew "moncho/dry/dry"
+brew "newrelic/tap/newrelic-infra-agent"
 brew "robotsandpencils/made/xcodes"
 brew "stripe/stripe-cli/stripe"
 cask "0-ad"
@@ -542,6 +552,7 @@ cask "postman"
 cask "rectangle"
 cask "scrivener"
 cask "shotcut"
+cask "signal"
 cask "slack"
 cask "soulver"
 cask "ssh-tunnel-manager"
@@ -557,63 +568,21 @@ cask "waterfox-current"
 cask "zerotier-one"
 cask "zoomus"
 mas "Amphetamine", id: 937984704
-mas "Amphetamine", id: 937984704
-mas "Bear", id: 1091189122
-mas "Bear", id: 1091189122
 mas "Bear", id: 1091189122
 mas "Bible Study", id: 472790630
-mas "Bible Study", id: 472790630
-mas "Bible Study", id: 472790630
-mas "Bible Study", id: 472790630
-mas "DaisyDisk", id: 411643860
-mas "Developer", id: 640199958
-mas "Developer", id: 640199958
-mas "Fantastical", id: 975937182
 mas "Fastest VPN", id: 1480208488
 mas "GarageBand", id: 682658836
-mas "GarageBand", id: 682658836
-mas "GIPHY CAPTURE", id: 668208984
-mas "HaTTiP", id: 828152861
 mas "iMovie", id: 408981434
-mas "iMovie", id: 408981434
-mas "iPulse", id: 1028916583
-mas "Key Codes", id: 414568915
 mas "Key Codes", id: 414568915
 mas "Keynote", id: 409183694
-mas "Keynote", id: 409183694
-mas "Linguan", id: 477163052
-mas "Linguan", id: 477163052
 mas "Numbers", id: 409203825
-mas "Numbers", id: 409203825
-mas "Numbers", id: 409203825
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
-mas "Pages", id: 409201541
-mas "Pages", id: 409201541
 mas "Pages", id: 409201541
 mas "PaintCode", id: 808809998
-mas "PaintCode", id: 808809998
 mas "PDF OCR X Community Edition", id: 571442933
-mas "PDF OCR X Community Edition", id: 571442933
-mas "Prepo", id: 476533227
+mas "Pluralsight", id: 431748264
 mas "Prepo", id: 476533227
 mas "Proelia", id: 515732997
-mas "Proelia", id: 515732997
-mas "Proelia", id: 515732997
-mas "Proelia", id: 515732997
-mas "Proelia", id: 515732997
-mas "Realm Browser", id: 1007457278
 mas "Realm Browser", id: 1007457278
 mas "Receigen", id: 452840086
-mas "Receigen", id: 452840086
-mas "Slack", id: 803453959
-mas "Soulver", id: 413965349
-mas "Soulver", id: 413965349
-mas "Spark", id: 1176895641
-mas "Spark", id: 1176895641
-mas "Spark", id: 1176895641
-mas "Xcode", id: 497799835
-mas "Xcode", id: 497799835
-mas "xScope", id: 447661441
-mas "xScope", id: 447661441
+mas "Soulver 2", id: 413965349
 mas "xScope", id: 447661441

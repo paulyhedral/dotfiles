@@ -65,6 +65,7 @@ export EDITOR="code-insiders -n -w"
 
 export HOMEBREW_GITHUB_API_TOKEN=$(cat $HOME/.github-api-token.txt)
 export PARADOX_GITHUB_TOKEN=$(cat $HOME/.paradox-github-token.txt)
+export FLUX_GITHUB_TOKEN=$(cat $HOME/.flux-github-token.txt)
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
@@ -105,7 +106,7 @@ unset GOPATH
 export GOPATH=$(goenv prefix)
 
 # These are here because python-build chokes otherwise
-sdkinfo=$(xcodebuild -showsdks -json | jq -j '.[] | select(.displayName | startswith("macOS"))')
+#sdkinfo=$(xcodebuild -showsdks -json | jq -j '.[] | select(.displayName | startswith("macOS"))')
 #export SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk
 export SDKROOT=$(echo $sdkinfo | jq -j '.sdkPath')
 #export MACOSX_DEPLOYMENT_TARGET=11.0
