@@ -45,11 +45,11 @@ HIST_STAMPS="mm/dd/yyyy"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(z git brew npm colorize command-not-found github git-flow jsontools osx pip rsync virtualenv chucknorris)
+plugins=(z git brew npm colorize command-not-found github git-flow jsontools macos pip rsync virtualenv chucknorris)
 
 # User configuration
 
-export PATH="$HOME/.binenv:/usr/local/texlive/2017/bin/x86_64-darwin:$HOME/bin:$HOME/.krew/bin:$HOME/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="$HOME/.binenv:$HOME/bin/istio-1.12.1/bin:/usr/local/texlive/2017/bin/x86_64-darwin:$HOME/bin:$HOME/.krew/bin:$HOME/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
 source $ZSH/oh-my-zsh.sh
 
@@ -91,7 +91,7 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 
 # emacs --daemon -q
 
-eval "$(zoxide init zsh)"
+#eval "$(zoxide init zsh)"
 eval "$(anyenv init -)"
 eval "$(starship init zsh)"
 #eval "$(swift package completion-tool generate-zsh-script)"
@@ -116,5 +116,5 @@ export PYTHON_CONFIGURE_OPTS="--enable-framework"
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /usr/local/bin/vault vault
 
-export KUBECONFIG=~/.kube/caradhras.config
+export KUBECONFIG=~/.kube/sweetrpg.config
 
