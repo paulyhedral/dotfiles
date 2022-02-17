@@ -66,6 +66,7 @@ export EDITOR="code-insiders -n -w"
 export HOMEBREW_GITHUB_API_TOKEN=$(cat $HOME/.github-api-token.txt)
 export PARADOX_GITHUB_TOKEN=$(cat $HOME/.paradox-github-token.txt)
 export FLUX_GITHUB_TOKEN=$(cat $HOME/.flux-github-token.txt)
+export CURSEFORGE_API_KEY=$(cat $HOME/.curseforge-api-key.txt)
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
