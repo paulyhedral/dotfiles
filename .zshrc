@@ -49,7 +49,7 @@ plugins=(z git brew npm colorize command-not-found github git-flow jsontools mac
 
 # User configuration
 
-export PATH="$HOME/.binenv:$HOME/bin/istio-1.12.1/bin:/usr/local/texlive/2017/bin/x86_64-darwin:$HOME/bin:$HOME/.krew/bin:$HOME/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="$HOME/.binenv:$HOME/bin/istio-1.12.1/bin:$HOME/bin:$HOME/.krew/bin:$HOME/.cargo/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
 source $ZSH/oh-my-zsh.sh
 

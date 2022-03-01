@@ -1,6 +1,6 @@
 #!/bin/bash -x
 
-dbdir="$HOME/Dropbox"
+dbdir="$HOME/Documents"
 datadir="$dbdir/Homedir"
 system=$(hostname -s | tr "[:upper:]" "[:lower:]")
 
