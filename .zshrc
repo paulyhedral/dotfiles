@@ -12,6 +12,7 @@ export ZSH=/Users/paulyhedral/.oh-my-zsh
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
 # DISABLE_AUTO_UPDATE="true"
+DISABLE_UPDATE_PROMPT=true
 
 # Uncomment the following line to change how often to auto-update (in days).
 # export UPDATE_ZSH_DAYS=13
@@ -45,7 +46,7 @@ HIST_STAMPS="mm/dd/yyyy"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(z git brew npm colorize command-not-found github git-flow jsontools macos pip rsync virtualenv chucknorris)
+plugins=(z git brew colorize command-not-found github git-flow jsontools macos pip rsync virtualenv chucknorris)
 
 # User configuration
 
@@ -87,14 +88,17 @@ alias firefox="/Applications/Firefox.app/Contents/MacOS/firefox-bin -P"
 alias codeterraform="code-insiders $HOME/Work/Repos/CarLabs/terraform"
 alias devdir="cd $HOME/Dev/Code"
 alias mcdir="open $HOME/Minecraft/Profiles/Paul"
+alias ls=exa
+alias myip="curl -s https://api.ipify.org"
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 # emacs --daemon -q
 
-#eval "$(zoxide init zsh)"
+#eval "$(/opt/homebrew/bin/zoxide init zsh)"
 eval "$(anyenv init -)"
 eval "$(starship init zsh)"
+eval "$(mcfly init zsh)"
 #eval "$(swift package completion-tool generate-zsh-script)"
 source $HOME/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $HOME/.zsh/history.zsh
@@ -119,3 +123,4 @@ complete -o nospace -C /usr/local/bin/vault vault
 
 export KUBECONFIG=~/.kube/sweetrpg.config
 
+source /Users/paulyhedral/.config/broot/launcher/bash/br
