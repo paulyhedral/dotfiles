@@ -453,6 +453,7 @@ cask "1password"
 cask "acorn"
 cask "adobe-acrobat-reader"
 cask "adoptopenjdk"
+cask "alfred"
 cask "authy"
 cask "azure-data-studio"
 cask "backblaze"
@@ -533,4 +534,5 @@ mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "PaintCode", id: 808809998
 mas "Spark", id: 1176895641
+mas "Xcode", id: 497799835
 mas "xScope", id: 447661441
