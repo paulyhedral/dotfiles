@@ -471,14 +471,12 @@ cask "daisydisk"
 cask "dash"
 cask "dat"
 cask "discord"
-cask "dockstation"
 cask "firefox"
 cask "fluid"
 cask "font-jetbrains-mono"
 cask "font-liberation"
 cask "font-unna"
 cask "fork"
-cask "foxit-pdf-editor"
 cask "gog-galaxy"
 cask "google-chrome"
 cask "google-cloud-sdk"
@@ -495,14 +493,12 @@ cask "little-snitch"
 cask "logitech-options"
 cask "mactex"
 cask "marsedit"
-cask "mcedit"
 cask "menuwhere"
 cask "minecraft"
 cask "netnewswire"
 cask "ngrok"
 cask "obs"
 cask "obs-virtualcam"
-cask "obsidian"
 cask "origin"
 cask "oxygen-xml-editor"
 cask "parallels"
@@ -515,7 +511,6 @@ cask "shotcut"
 cask "signal"
 cask "sketch"
 cask "slack"
-cask "smartsynchronize"
 cask "ssh-tunnel-manager"
 cask "steam"
 cask "superduper"
@@ -527,17 +522,3 @@ cask "visual-studio-code-insiders"
 cask "vlc"
 cask "wireshark"
 cask "zerotier-one"
-mas "Amphetamine", id: 937984704
-mas "Bear", id: 1091189122
-mas "Bible Study", id: 472790630
-mas "Developer", id: 640199958
-mas "Fantastical", id: 975937182
-mas "GarageBand", id: 682658836
-mas "iMovie", id: 408981434
-mas "Key Codes", id: 414568915
-mas "Keynote", id: 409183694
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
-mas "PaintCode", id: 808809998
-mas "Spark", id: 1176895641
-mas "xScope", id: 447661441
