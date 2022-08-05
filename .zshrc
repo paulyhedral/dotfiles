@@ -124,3 +124,7 @@ complete -o nospace -C /usr/local/bin/vault vault
 export KUBECONFIG=~/.kube/sweetrpg.config
 
 source /Users/paulyhedral/.config/broot/launcher/bash/br
+
+### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
+export PATH="/Users/paulyhedral/.rd/bin:$PATH"
+### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)

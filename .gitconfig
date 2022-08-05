@@ -1,7 +1,7 @@
 [user]
 	name = Paul Schifferer
 	email = paul@schifferers.net
-	signingkey = 7CC400015464DEA6174959567BC8CA9C7EF91A22
+	signingkey = 7BC8CA9C7EF91A22
 [core]
 	excludesfile = /Users/paulyhedral/.gitignore_global
 	autocrlf = input
