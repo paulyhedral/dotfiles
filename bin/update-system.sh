@@ -16,8 +16,9 @@ brew cleanup
 #brew link tfenv
 brew bundle dump --global -f
 cp ~/.Brewfile .
-yadm add .Brewfile
+yadm add .Brewfile ~/.Brewfile
 yadm commit -m "Updated .Brewfile"
+yadm push
 #sudo gem update -N
 #sudo gem list --local | awk '{print $1}' > gem-list-$system.txt
 mas list >mas-applications-$system.txt

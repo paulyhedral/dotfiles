@@ -68,6 +68,7 @@ export HOMEBREW_GITHUB_API_TOKEN=$(cat $HOME/.github-api-token.txt)
 export PARADOX_GITHUB_TOKEN=$(cat $HOME/.paradox-github-token.txt)
 export FLUX_GITHUB_TOKEN=$(cat $HOME/.flux-github-token.txt)
 export CURSEFORGE_API_KEY=$(cat $HOME/.curseforge-api-key.txt)
+export DOCKER_GITHUB_TOKEN=$(cat $HOME/.docker-github-token.txt)
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
@@ -121,7 +122,7 @@ export PYTHON_CONFIGURE_OPTS="--enable-framework"
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /usr/local/bin/vault vault
 
-export KUBECONFIG=~/.kube/sweetrpg.config
+export KUBECONFIG=~/.kube/psw-dev.config
 
 source /Users/paulyhedral/.config/broot/launcher/bash/br
 
