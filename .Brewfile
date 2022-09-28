@@ -122,10 +122,12 @@ brew "dnstwist"
 brew "docbook"
 brew "docbook-xsl"
 brew "docker"
+brew "docker-compose"
 brew "docker-credential-helper"
 brew "dog"
 brew "doitlive"
 brew "dos2unix"
+brew "dosbox-x"
 brew "duf"
 brew "dust"
 brew "e2fsprogs"
@@ -548,5 +550,4 @@ mas "Pages", id: 409201541
 mas "PaintCode", id: 808809998
 mas "Spark", id: 1176895641
 mas "Transporter", id: 1450874784
-mas "Xcode", id: 497799835
 mas "xScope", id: 447661441
