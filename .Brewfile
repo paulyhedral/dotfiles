@@ -459,7 +459,7 @@ brew "zsh-navigation-tools"
 brew "zsh-syntax-highlighting"
 brew "zurl"
 brew "derailed/popeye/popeye"
-brew "fluxcd/tap/flux"
+brew "fluxcd/tap/flux", link: false
 brew "stripe/stripe-cli/stripe"
 brew "vapor/tap/ctls"
 cask "1password"
