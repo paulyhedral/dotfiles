@@ -460,7 +460,7 @@ brew "zsh-syntax-highlighting"
 brew "zurl"
 brew "derailed/popeye/popeye"
 brew "fluxcd/tap/flux"
-brew "stripe/stripe-cli/stripe", link: false
+brew "stripe/stripe-cli/stripe"
 brew "vapor/tap/ctls"
 cask "1password"
 cask "1password-cli"
