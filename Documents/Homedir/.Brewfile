@@ -238,7 +238,7 @@ brew "xmlto"
 brew "shared-mime-info"
 brew "libheif"
 brew "liblqr"
-brew "libomp"
+brew "libomp", link: true
 brew "imagemagick"
 brew "imagemagick@6"
 brew "intltool"
