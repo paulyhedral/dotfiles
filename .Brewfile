@@ -545,7 +545,6 @@ mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
 mas "Key Codes", id: 414568915
 mas "Keynote", id: 409183694
-mas "New File Menu", id: 1064959555
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "PaintCode", id: 808809998
