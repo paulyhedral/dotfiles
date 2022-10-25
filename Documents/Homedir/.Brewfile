@@ -135,6 +135,7 @@ brew "e2fsprogs"
 brew "ec2-api-tools"
 brew "gflags"
 brew "glog"
+brew "llvm"
 brew "editorconfig"
 brew "elvish"
 brew "envconsul"
@@ -293,7 +294,6 @@ brew "libvterm"
 brew "libzip"
 brew "linkerd"
 brew "linode-cli"
-brew "llvm"
 brew "lorem"
 brew "lsd"
 brew "lynis"
@@ -486,6 +486,7 @@ cask "discord"
 cask "duckduckgo"
 cask "firefox"
 cask "fluid"
+cask "font-gabriela"
 cask "font-jetbrains-mono"
 cask "font-liberation"
 cask "font-unna"
@@ -551,4 +552,5 @@ mas "Pages", id: 409201541
 mas "PaintCode", id: 808809998
 mas "Spark", id: 1176895641
 mas "Transporter", id: 1450874784
+mas "Xcode", id: 497799835
 mas "xScope", id: 447661441
