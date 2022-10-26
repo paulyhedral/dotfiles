@@ -129,3 +129,8 @@ source /Users/paulyhedral/.config/broot/launcher/bash/br
 ### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
 export PATH="/Users/paulyhedral/.rd/bin:$PATH"
 ### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
+
+# pnpm
+export PNPM_HOME="/Users/paulyhedral/Library/pnpm"
+export PATH="$PNPM_HOME:$PATH"
+# pnpm end
