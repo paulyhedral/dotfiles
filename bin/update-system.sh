@@ -8,7 +8,7 @@ pushd $datadir
 
 #brew upgrade
 #brew unlink tfenv
-topgrade -c --no-retry --disable system --disable github_cli_extensions --disable containers --disable yadm
+topgrade -c --no-retry --disable system --disable github_cli_extensions --disable containers --disable yadm --disable node
 #brew cask upgrade
 brew cleanup
 # brew list | fold > brew-recipes-$system.txt
