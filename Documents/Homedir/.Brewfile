@@ -552,6 +552,7 @@ mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "PaintCode", id: 808809998
+mas "ServerCat", id: 1501532023
 mas "Spark", id: 1176895641
 mas "Transporter", id: 1450874784
 mas "Xcode", id: 497799835
