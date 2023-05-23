@@ -375,7 +375,7 @@ brew "rapidjson"
 brew "rclone"
 brew "re2c"
 brew "recutils"
-brew "redis"
+brew "redis", restart_service: true
 brew "regina-rexx"
 brew "reposurgeon"
 brew "ripgrep"
