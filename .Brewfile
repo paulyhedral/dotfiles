@@ -6,7 +6,6 @@ mas "1Password for Safari", id: 1569813296
 mas "Amphetamine", id: 937984704
 mas "Bear", id: 1091189122
 mas "Bible Study", id: 472790630
-mas "Day One", id: 1055511498
 mas "Developer", id: 640199958
 mas "Fantastical", id: 975937182
 mas "GarageBand", id: 682658836
