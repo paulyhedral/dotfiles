@@ -18,5 +18,4 @@ mas "PaintCode", id: 808809998
 mas "ServerCat", id: 1501532023
 mas "Spark", id: 1176895641
 mas "Transporter", id: 1450874784
-mas "Xcode", id: 497799835
 mas "xScope", id: 447661441
