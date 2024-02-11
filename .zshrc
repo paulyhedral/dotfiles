@@ -1,3 +1,10 @@
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/paulyhedral/.oh-my-zsh
 
@@ -50,7 +57,7 @@ plugins=(z git brew colorize command-not-found github git-flow jsontools macos p
 
 # User configuration
 
-export PATH="$HOME/.binenv:$HOME/bin/istio-1.12.1/bin:$HOME/bin:$HOME/.krew/bin:$HOME/.cargo/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="$HOME/.binenv:$HOME/bin:$HOME/.krew/bin:$HOME/.cargo/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
 source $ZSH/oh-my-zsh.sh
 
@@ -71,12 +78,13 @@ export CURSEFORGE_API_KEY=$(cat $HOME/.curseforge-api-key.txt)
 export DOCKER_GITHUB_TOKEN=$(cat $HOME/.docker-github-token.txt)
 
 export NVM_DIR="$HOME/.nvm"
-[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
-[ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"                                       # This loads nvm
+[ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm" # This loads nvm bash_completion
 
 eval "$(direnv hook zsh)"
 eval "$(binenv completion zsh)"
 eval "$(kubecm completion zsh)"
+source "$HOME/.cargo/env"
 
 export FG_HOME="${HOME}/SmiteWorks/Fantasy Grounds"
 
@@ -91,6 +99,8 @@ alias devdir="cd $HOME/Dev/Code"
 alias mcdir="open $HOME/Minecraft/Profiles/Paul"
 alias ls=exa
 alias myip="curl -s https://api.ipify.org"
+alias code="code-insiders"
+alias talos="talosctl -e 192.168.1.17"
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
@@ -103,7 +113,10 @@ eval "$(mcfly init zsh)"
 #eval "$(swift package completion-tool generate-zsh-script)"
 source $HOME/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $HOME/.zsh/history.zsh
-eval "$(/usr/libexec/path_helper)"
+# eval "$(/usr/libexec/path_helper)"
+
+source <(kn completion zsh)
+compdef _kn kn
 
 #export GOPATH=${HOME}/Dev/Code/Go
 #echo $GOPATH
@@ -123,14 +136,7 @@ autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /usr/local/bin/vault vault
 
 export KUBECONFIG=~/.kube/psw-dev.config
+source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
 
-source /Users/paulyhedral/.config/broot/launcher/bash/br
-
-### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
-export PATH="/Users/paulyhedral/.rd/bin:$PATH"
-### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
-
-# pnpm
-export PNPM_HOME="/Users/paulyhedral/Library/pnpm"
-export PATH="$PNPM_HOME:$PATH"
-# pnpm end
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
