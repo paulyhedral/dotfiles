@@ -569,6 +569,7 @@ cask "unetbootin"
 cask "unite"
 cask "visual-studio-code-insiders"
 cask "vlc"
+cask "whisky"
 cask "wireshark"
 cask "zerotier-one"
 mas "1Password for Safari", id: 1569813296
