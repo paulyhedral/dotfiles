@@ -40,7 +40,7 @@ brew "webp"
 brew "argo"
 brew "argocd"
 brew "dbus"
-brew "glib"
+brew "glib", link: false
 brew "at-spi2-core"
 brew "augeas"
 brew "autoconf"
