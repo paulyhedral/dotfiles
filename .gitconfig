@@ -1,7 +1,7 @@
 [user]
 	name = Paul Schifferer
 	email = paul@schifferers.net
-	signingkey = 7BC8CA9C7EF91A22
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIH6+TqQmNKYNDvDk4Kqx3pDDhdezItSFPqaR/YQiJppS
 [core]
 	excludesfile = /Users/paulyhedral/.gitignore_global
 	autocrlf = input
@@ -18,6 +18,7 @@
 	rebase = true
 [gpg]
 	program = /opt/homebrew/bin/gpg
+	format = ssh
 
 [init]
 	defaultBranch = develop
@@ -28,3 +29,7 @@
 	required = true
 [mergetool]
 	keepBackup = true
+[tag]
+	sort = -version:refname
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign

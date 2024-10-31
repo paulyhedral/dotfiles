@@ -83,8 +83,12 @@ export NVM_DIR="$HOME/.nvm"
 
 eval "$(direnv hook zsh)"
 eval "$(binenv completion zsh)"
-eval "$(kubecm completion zsh)"
+#eval "$(kubecm completion zsh)"
 source "$HOME/.cargo/env"
+
+if command -v ngrok &>/dev/null; then
+  eval "$(ngrok completion)"
+fi
 
 export FG_HOME="${HOME}/SmiteWorks/Fantasy Grounds"
 
@@ -97,7 +101,7 @@ alias firefox="/Applications/Firefox.app/Contents/MacOS/firefox-bin -P"
 alias codeterraform="code-insiders $HOME/Work/Repos/CarLabs/terraform"
 alias devdir="cd $HOME/Dev/Code"
 alias mcdir="open $HOME/Minecraft/Profiles/Paul"
-alias ls=exa
+#alias ls=exa
 alias myip="curl -s https://api.ipify.org"
 alias code="code-insiders"
 alias talos="talosctl -e 192.168.1.17"
@@ -115,7 +119,7 @@ source $HOME/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $HOME/.zsh/history.zsh
 # eval "$(/usr/libexec/path_helper)"
 
-source <(kn completion zsh)
+#source <(kn completion zsh)
 compdef _kn kn
 
 #export GOPATH=${HOME}/Dev/Code/Go
@@ -140,3 +144,7 @@ source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+ssh-add $HOME/.ssh/id_rsa
+
+eval "$(op signin)"

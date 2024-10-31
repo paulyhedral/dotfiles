@@ -612,24 +612,9 @@ cask "zerotier-one"
 mas "Amphetamine", id: 937984704
 mas "Bear", id: 1091189122
 mas "Bible Study", id: 472790630
-mas "Developer", id: 640199958
 mas "Fantastical", id: 975937182
-mas "GarageBand", id: 682658836
-mas "HaTTiP", id: 828152861
-mas "iMovie", id: 408981434
 mas "Key Codes", id: 414568915
 mas "Keynote", id: 409183694
-mas "Linguan", id: 477163052
-mas "Linguan", id: 477163052
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
-mas "PaintCode", id: 808809998
-mas "Prepo", id: 476533227
-mas "Proelia", id: 515732997
-mas "Realm Browser", id: 1007457278
-mas "Receigen", id: 452840086
 mas "Spark", id: 1176895641
-mas "Xcode", id: 497799835
-mas "Xcode", id: 497799835
-mas "Xcode", id: 497799835
-mas "xScope", id: 447661441

@@ -10,6 +10,7 @@ pushd $datadir
 #brew unlink tfenv
 topgrade -c --no-retry --disable system --disable github_cli_extensions --disable containers --disable yadm --disable node
 #brew cask upgrade
+anyenv update
 brew cleanup
 # brew list | fold > brew-recipes-$system.txt
 # brew cask list | fold > brew-cask-recipes-$system.txt
@@ -29,8 +30,8 @@ cp -Rpv ~/.gitconfig dot-gitconfig-$system
 cp -Rpv ~/.zshrc dot-zshrc-$system
 
 for tl in $(ls -1d /usr/local/texlive/????); do
-    $tl/bin/*-darwin/tlmgr update --self
-    $tl/bin/*-darwin/tlmgr update --all
+    sudo $tl/bin/*-darwin/tlmgr update --self
+    sudo $tl/bin/*-darwin/tlmgr update --all
 done
 
 sudo softwareupdate -d -i -a -R
