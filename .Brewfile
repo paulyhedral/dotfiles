@@ -474,6 +474,7 @@ cask "font-jetbrains-mono"
 cask "font-meslo-for-powerlevel10k"
 cask "font-source-code-pro"
 cask "gas-mask"
+cask "gog-galaxy"
 cask "google-chrome"
 cask "handbrake"
 cask "istat-menus"
@@ -512,18 +513,6 @@ cask "warp"
 cask "webcatalog"
 cask "wireshark"
 cask "zerotier-one"
-mas "Amphetamine", id: 937984704
-mas "Bear", id: 1091189122
-mas "Bible Study", id: 472790630
-mas "Developer", id: 640199958
-mas "Fantastical", id: 975937182
-mas "Key Codes", id: 414568915
-mas "Keynote", id: 409183694
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
-mas "Ping", id: 1532271726
-mas "Spark", id: 1176895641
-mas "Xcode", id: 497799835
 vscode "4ops.terraform"
 vscode "aaron-bond.better-comments"
 vscode "ahmadalli.vscode-nginx-conf"
