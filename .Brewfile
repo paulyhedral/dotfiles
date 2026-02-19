@@ -521,7 +521,6 @@ cask "webcatalog"
 cask "wireshark-app"
 cask "zerotier-one"
 mas "Amphetamine", id: 937984704
-mas "Bear", id: 1091189122
 mas "Bible Study", id: 472790630
 mas "Developer", id: 640199958
 mas "Fantastical", id: 975937182
@@ -648,6 +647,7 @@ vscode "ms-vscode-remote.remote-ssh-edit"
 vscode "ms-vscode-remote.remote-wsl"
 vscode "ms-vscode-remote.vscode-remote-extensionpack"
 vscode "ms-vscode.cmake-tools"
+vscode "ms-vscode.cpp-devtools"
 vscode "ms-vscode.cpptools"
 vscode "ms-vscode.live-server"
 vscode "ms-vscode.makefile-tools"
