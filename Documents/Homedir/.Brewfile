@@ -5,6 +5,7 @@ tap "gobuffalo/tap"
 tap "homebrew/bundle"
 tap "homebrew/services"
 tap "knative-extensions/kn-plugins"
+tap "peonping/tap"
 tap "stripe/stripe-cli"
 tap "ubuntu/microk8s"
 tap "vapor/tap"
@@ -23,7 +24,6 @@ brew "aide"
 brew "c-ares"
 brew "libuv"
 brew "lz4"
-brew "sqlite"
 brew "xz"
 brew "zstd"
 brew "node"
@@ -437,6 +437,7 @@ brew "zurl"
 brew "fluxcd/tap/flux"
 brew "gobuffalo/tap/buffalo"
 brew "knative-extensions/kn-plugins/func"
+brew "peonping/tap/peon-ping"
 brew "stripe/stripe-cli/stripe"
 brew "vapor/tap/ctls"
 cask "1password"
@@ -514,7 +515,6 @@ cask "webcatalog"
 cask "wireshark-app"
 cask "zerotier-one"
 mas "Amphetamine", id: 937984704
-mas "Bear", id: 1091189122
 mas "Bible Study", id: 472790630
 mas "Developer", id: 640199958
 mas "Fantastical", id: 975937182
@@ -523,7 +523,6 @@ mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Ping", id: 1532271726
-mas "Spark", id: 1176895641
 mas "Xcode", id: 497799835
 vscode "42crunch.vscode-openapi"
 vscode "4ops.terraform"
