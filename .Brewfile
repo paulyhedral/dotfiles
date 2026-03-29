@@ -515,6 +515,7 @@ cask "webcatalog"
 cask "wireshark-app"
 cask "zerotier-one"
 mas "Amphetamine", id: 937984704
+mas "Bear", id: 1091189122
 mas "Bible Study", id: 472790630
 mas "Developer", id: 640199958
 mas "Fantastical", id: 975937182
