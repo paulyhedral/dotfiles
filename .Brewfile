@@ -529,7 +529,6 @@ mas "Amphetamine", id: 937984704
 mas "Bear", id: 1091189122
 mas "Bible Study", id: 472790630
 mas "Developer", id: 640199958
-mas "Fantastical", id: 975937182
 mas "Key Codes", id: 414568915
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
@@ -747,3 +746,5 @@ cargo "rustfilt"
 cargo "rustlings"
 cargo "tauri-cli"
 krew "stern"
+npm "nativefier"
+npm "yarn"
