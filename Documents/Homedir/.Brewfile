@@ -738,6 +738,8 @@ brew "shared-mime-info"
 brew "shfmt"
 # Execute the same command on many hosts in parallel
 brew "shmux"
+# CLI and dbus interface for WhisperSystems/libsignal-service-java
+brew "signal-cli"
 # Command-line utility for posting snippets to Slack
 brew "slackcat"
 # Cross-platform application to monitor your network traffic
@@ -1044,6 +1046,7 @@ mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Ping", id: 1532271726
+mas "Spark", id: 1176895641
 mas "Xcode", id: 497799835
 vscode "42crunch.vscode-openapi"
 vscode "4ops.terraform"
