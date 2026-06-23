@@ -6,7 +6,7 @@ tap "gobuffalo/tap", trusted: true
 tap "homebrew/bundle"
 tap "homebrew/services"
 tap "knative-extensions/kn-plugins", trusted: true
-tap "peonping/tap", trusted: true
+tap "peonping/tap", "https://github.com/PeonPing/homebrew-tap", trusted: true
 tap "siderolabs/tap", trusted: true
 tap "spacedriveapp/tap", trusted: true
 tap "stripe/stripe-cli", trusted: true
@@ -1036,18 +1036,6 @@ cask "wireshark-app"
 cask "zed"
 # Mesh VPN client
 cask "zerotier-one"
-mas "Amphetamine", id: 937984704
-mas "Bear", id: 1091189122
-mas "Bible Study", id: 472790630
-mas "Developer", id: 640199958
-mas "Fantastical", id: 975937182
-mas "Key Codes", id: 414568915
-mas "Keynote", id: 409183694
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
-mas "Ping", id: 1532271726
-mas "Spark", id: 1176895641
-mas "Xcode", id: 497799835
 vscode "42crunch.vscode-openapi"
 vscode "4ops.terraform"
 vscode "aaron-bond.better-comments"
