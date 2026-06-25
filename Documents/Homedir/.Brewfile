@@ -923,6 +923,8 @@ cask "chatgpt"
 cask "claude"
 # Terminal-based AI coding assistant
 cask "claude-code"
+# Menu bar app for monitoring AI coding assistant usage quotas
+cask "claudebar"
 # OpenAI's coding agent that runs in your terminal
 cask "codex"
 # OpenAI's Codex desktop app for managing coding agents
