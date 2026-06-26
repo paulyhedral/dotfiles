@@ -584,8 +584,6 @@ brew "msgpack"
 brew "mussh"
 # CLI for MySQL with auto-completion and syntax highlighting
 brew "mycli"
-# General-purpose lossless data-compression library
-brew "zlib"
 # Open source relational database management system
 brew "mysql-client"
 # FTP client with an advanced user interface
@@ -866,6 +864,8 @@ brew "youtube-dl"
 brew "yq"
 # Network security monitor
 brew "zeek"
+# General-purpose lossless data-compression library
+brew "zlib"
 # NoSQL query processor
 brew "zorba"
 # Fish-like fast/unobtrusive autosuggestions for zsh
