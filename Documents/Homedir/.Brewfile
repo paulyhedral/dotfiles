@@ -960,6 +960,8 @@ cask "font-meslo-for-powerlevel10k"
 cask "font-source-code-pro"
 # Kubernetes IDE
 cask "freelens"
+# Desktop client for GitHub repositories
+cask "github"
 # 2D and 3D game engine
 cask "godot"
 # Web browser
@@ -1236,7 +1238,6 @@ vscode "vscjava.vscode-java-debug"
 vscode "vscjava.vscode-java-dependency"
 vscode "vscjava.vscode-java-pack"
 vscode "vscjava.vscode-java-test"
-vscode "vscjava.vscode-java-upgrade"
 vscode "vscjava.vscode-maven"
 vscode "vscode-icons-team.vscode-icons"
 vscode "vue.volar"
