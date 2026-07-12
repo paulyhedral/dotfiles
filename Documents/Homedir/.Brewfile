@@ -168,12 +168,16 @@ brew "harfbuzz"
 brew "libtiff"
 # Color management engine supporting ICC profiles
 brew "little-cms2"
+# Image format providing lossless and lossy compression for web images
+brew "webp"
 # Check Java source against a coding standard
 brew "checkstyle"
 # Control Google Chrome from the command-line
 brew "chrome-cli"
 # Command-line tool for Amazon Route 53
 brew "cli53"
+# Tool for emulating mouse and keyboard events
+brew "cliclick"
 # Cross-platform make
 brew "cmake"
 # Container runtimes on MacOS (and Linux) with minimal setup
@@ -186,8 +190,6 @@ brew "libtool"
 brew "unixodbc"
 # High dynamic-range image file format
 brew "openexr"
-# Image format providing lossless and lossy compression for web images
-brew "webp"
 # Graphics library to dynamically manipulate images
 brew "gd"
 # Network authentication protocol
@@ -927,8 +929,8 @@ cask "claude-code"
 cask "claudebar"
 # OpenAI's coding agent that runs in your terminal
 cask "codex"
-# OpenAI's Codex desktop app for managing coding agents
-cask "codex-app"
+# OpenAI's official ChatGPT desktop app
+cask "chatgpt"
 # Native document editor
 cask "craft"
 # Tool to run Windows software
@@ -1257,6 +1259,7 @@ cargo "cargo-watch"
 cargo "cargo-xtask"
 cargo "create-gpui-app"
 cargo "create-tauri-app"
+cargo "git-cliff"
 cargo "grcov"
 cargo "rustfilt"
 cargo "rustlings"
