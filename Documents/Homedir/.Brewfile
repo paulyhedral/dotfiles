@@ -16,6 +16,10 @@ tap "vapor/tap", trusted: true
 brew "ack"
 # Run your GitHub Actions locally
 brew "act"
+# GNU multiple precision arithmetic library
+brew "gmp"
+# Static checker for GitHub Actions workflow files
+brew "actionlint"
 # C/C++ resolver library and DNS resolver utilities
 brew "adns"
 # Library for command-line editing
@@ -40,8 +44,6 @@ brew "aide"
 brew "libpng"
 # Software library to render fonts
 brew "freetype"
-# GNU multiple precision arithmetic library
-brew "gmp"
 # Integer Set Library for the polyhedral model
 brew "isl"
 # C library for multiple-precision floating-point computations
@@ -919,8 +921,6 @@ cask "balenaetcher"
 cask "bartender"
 # Online gaming platform
 cask "battle-net"
-# OpenAI's official ChatGPT desktop app
-cask "chatgpt"
 # Anthropic's official Claude AI desktop app
 cask "claude"
 # Terminal-based AI coding assistant
@@ -929,8 +929,8 @@ cask "claude-code"
 cask "claudebar"
 # OpenAI's coding agent that runs in your terminal
 cask "codex"
-# OpenAI's official ChatGPT desktop app
-cask "chatgpt"
+# OpenAI's Codex desktop app for managing coding agents
+cask "codex-app"
 # Native document editor
 cask "craft"
 # Tool to run Windows software
@@ -1044,7 +1044,6 @@ cask "zed"
 cask "zerotier-one"
 mas "Amphetamine", id: 937984704
 mas "Bear", id: 1091189122
-mas "Bible Study", id: 472790630
 mas "Developer", id: 640199958
 mas "Fantastical", id: 975937182
 mas "Key Codes", id: 414568915
