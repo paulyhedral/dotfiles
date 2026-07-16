@@ -701,7 +701,7 @@ brew "rocksdb"
 # Tools for Multiple Arcade Machine Emulator
 brew "rom-tools"
 # Powerful, clean, object-oriented scripting language
-brew "ruby", link: false
+brew "ruby"
 # Install various Ruby versions and implementations
 brew "ruby-build"
 # Library for creating multi-platform software
@@ -1044,6 +1044,7 @@ cask "zed"
 cask "zerotier-one"
 mas "Amphetamine", id: 937984704
 mas "Bear", id: 1091189122
+mas "Bible Study", id: 472790630
 mas "Developer", id: 640199958
 mas "Fantastical", id: 975937182
 mas "Key Codes", id: 414568915
