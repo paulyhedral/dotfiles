@@ -911,7 +911,6 @@ cask "alfred"
 cask "angband-app"
 # Chromium based browser
 cask "arc"
-# Two-factor authentication software
 cask "authy"
 # Data backup and storage service
 cask "backblaze"
@@ -937,7 +936,6 @@ cask "craft"
 cask "crossover"
 # Disk space visualiser
 cask "daisydisk"
-# Peer to peer data sharing app built for humans
 cask "dat"
 # Utility to enhance the Open and Save dialogs in applications
 cask "default-folder-x"
@@ -1053,7 +1051,6 @@ mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Ping", id: 1532271726
 mas "Spark", id: 1176895641
-mas "Xcode", id: 497799835
 vscode "42crunch.vscode-openapi"
 vscode "4ops.terraform"
 vscode "aaron-bond.better-comments"
