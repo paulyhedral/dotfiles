@@ -1,5 +1,6 @@
 tap "argoproj/tap", trusted: true
 tap "aws/tap", trusted: true
+tap "controlplaneio-fluxcd/tap"
 tap "fluxcd/tap", trusted: true
 tap "github/gh", trusted: true
 tap "gobuffalo/tap", trusted: true
@@ -818,6 +819,8 @@ brew "typescript"
 brew "unzip"
 # URI parsing library (strictly RFC 3986 compliant)
 brew "uriparser"
+# Extremely fast Python package installer and resolver, written in Rust
+brew "uv"
 # Bash completion for Vagrant
 brew "vagrant-completion"
 # Command-line tool for Vapor (Server-side Swift web framework)
@@ -886,6 +889,8 @@ brew "zsh-syntax-highlighting"
 brew "zurl"
 # Kubectl Argo Rollouts Plugin.
 brew "argoproj/tap/kubectl-argo-rollouts"
+# Flux MCP Server
+brew "controlplaneio-fluxcd/tap/flux-operator-mcp", trusted: true
 # Flux CLI
 brew "fluxcd/tap/flux"
 brew "gobuffalo/tap/buffalo"
@@ -1016,6 +1021,8 @@ cask "scrivener"
 cask "signal"
 # Video game digital distribution service
 cask "steam"
+# Subsonic client
+cask "submariner"
 # Backup, recovery and cloning software
 cask "superduper"
 # Native GUI tool for relational databases
@@ -1248,7 +1255,7 @@ vscode "wyattferguson.jinja2-snippet-kit"
 vscode "xabikos.javascriptsnippets"
 vscode "zhangyue.rust-mod-generator"
 vscode "zignd.html-css-class-completion"
-go "github.com/golangci/golangci-lint/cmd/golangci-lint"
+go "github.com/golangci/golangci-lint/v2/cmd/golangci-lint"
 cargo "bottom"
 cargo "cargo-cache"
 cargo "cargo-packager"
