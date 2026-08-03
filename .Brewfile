@@ -7,6 +7,7 @@ tap "gobuffalo/tap", trusted: true
 tap "homebrew/bundle"
 tap "homebrew/services"
 tap "knative-extensions/kn-plugins", trusted: true
+tap "mongodb/brew", trusted: true
 tap "peonping/tap", "https://github.com/PeonPing/homebrew-tap", trusted: true
 tap "siderolabs/tap", trusted: true
 tap "spacedriveapp/tap", trusted: true
@@ -463,8 +464,6 @@ brew "libheif"
 brew "imagemagick"
 # Tools and libraries to manipulate images in many formats
 brew "imagemagick@6"
-# Time series, events, and metrics database
-brew "influxdb"
 # String tool
 brew "intltool"
 # Interactive computing in Python
@@ -501,6 +500,8 @@ brew "jupyterlab"
 brew "just"
 # Little helper to run CNCF's k3s in Docker
 brew "k3d"
+# Kubernetes CLI To Manage Your Clusters In Style!
+brew "k9s"
 # Package manager for kubectl plugins
 brew "krew"
 # Helps audit your Kubernetes clusters against common security controls
@@ -573,6 +574,8 @@ brew "mas"
 brew "mcfly"
 # Show markdown documents on text terminals
 brew "mdcat"
+# Run a Kubernetes cluster locally
+brew "minikube"
 # Simple tool to make locally trusted development certificates
 brew "mkcert"
 # Powerful markdown processor in Go geared towards the IETF
@@ -597,8 +600,6 @@ brew "ncftp"
 brew "newman"
 # HTTP/2 C Library
 brew "nghttp2"
-# HTTP(S) server and reverse proxy, and IMAP/POP3 proxy server
-brew "nginx"
 # Powerful programming language and shell designed specifically for Ops
 brew "ngs"
 # Platform-neutral API for system-level and libc-like functions
@@ -625,10 +626,6 @@ brew "openjdk@21"
 brew "openspec"
 # Cryptography and SSL/TLS Toolkit
 brew "openssl@1.1"
-# Library to simplify the interaction with PKCS#11
-brew "pkcs11-helper"
-# SSL/TLS VPN implementing OSI layer 2 or 3 secure network extension
-brew "openvpn"
 # Turn any webpage into a desktop app with Rust with ease
 brew "pake"
 # Shell command parallelization utility
@@ -645,6 +642,8 @@ brew "pgformatter"
 brew "pidof"
 # Execute binaries from Python packages in isolated environments
 brew "pipx"
+# Library to simplify the interaction with PKCS#11
+brew "pkcs11-helper"
 # Library like getopt(3) with a number of enhancements
 brew "popt"
 # Object-relational database system
@@ -749,6 +748,8 @@ brew "slackcat"
 brew "sniffnet"
 # SOcket CAT: netcat on steroids
 brew "socat"
+# Daemon to provide vmnet.framework support for rootless QEMU
+brew "socket_vmnet"
 # Editor of encrypted files
 brew "sops"
 # Generate Markdown files from inline source code documentation
@@ -895,6 +896,8 @@ brew "controlplaneio-fluxcd/tap/flux-operator-mcp", trusted: true
 brew "fluxcd/tap/flux"
 brew "gobuffalo/tap/buffalo"
 brew "knative-extensions/kn-plugins/func"
+# This package contains standard utilities for interacting with MongoDB.
+brew "mongodb/brew/mongodb-database-tools"
 # Sound effects and desktop notifications for AI coding agents
 brew "peonping/tap/peon-ping"
 # CLI for out-of-band management of Kubernetes nodes created by Talos
