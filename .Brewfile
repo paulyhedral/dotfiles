@@ -374,6 +374,8 @@ brew "pinentry"
 brew "gnupg"
 # Bash-tool to store the private data inside a git repo
 brew "git-secret"
+# GitHub Model Context Protocol server for AI tools
+brew "github-mcp-server"
 # Audit git repos for secrets
 brew "gitleaks"
 # Simplified version control system on top of git
@@ -572,6 +574,12 @@ brew "mame"
 brew "mas"
 # Fly through your shell history
 brew "mcfly"
+# MCP server for Grafana
+brew "mcp-grafana"
+# MCP Server for kubernetes management commands
+brew "mcp-server-kubernetes"
+# MCP server for databases
+brew "mcp-toolbox"
 # Show markdown documents on text terminals
 brew "mdcat"
 # Run a Kubernetes cluster locally
@@ -1008,6 +1016,8 @@ cask "name-mangler"
 cask "netnewswire"
 # Reverse proxy, secure introspectable tunnels to localhost
 cask "ngrok"
+# Visual workspace for building with Codex and Claude Code
+cask "nimbalyst"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
 # Collaboration platform for API development
@@ -1259,6 +1269,7 @@ vscode "xabikos.javascriptsnippets"
 vscode "zhangyue.rust-mod-generator"
 vscode "zignd.html-css-class-completion"
 go "github.com/golangci/golangci-lint/v2/cmd/golangci-lint"
+go "github.com/grafana/mcp-grafana/cmd/mcp-grafana"
 cargo "bottom"
 cargo "cargo-cache"
 cargo "cargo-packager"
