@@ -988,6 +988,8 @@ cask "handbrake-app"
 cask "istat-menus"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
+# Agentic development environment
+cask "jetbrains-air"
 # JetBrains tools manager
 cask "jetbrains-toolbox"
 # Quick Look plugin for Jupyter notebooks
@@ -1016,8 +1018,6 @@ cask "name-mangler"
 cask "netnewswire"
 # Reverse proxy, secure introspectable tunnels to localhost
 cask "ngrok"
-# Visual workspace for building with Codex and Claude Code
-cask "nimbalyst"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
 # Collaboration platform for API development
