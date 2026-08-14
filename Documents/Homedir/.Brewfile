@@ -1,3 +1,4 @@
+tap "anomalyco/tap", trusted: true
 tap "argoproj/tap", trusted: true
 tap "aws/tap", trusted: true
 tap "controlplaneio-fluxcd/tap"
@@ -9,6 +10,7 @@ tap "homebrew/services"
 tap "knative-extensions/kn-plugins", trusted: true
 tap "mongodb/brew", trusted: true
 tap "peonping/tap", "https://github.com/PeonPing/homebrew-tap", trusted: true
+tap "rjyo/moshi", trusted: true
 tap "siderolabs/tap", trusted: true
 tap "spacedriveapp/tap", trusted: true
 tap "stripe/stripe-cli", trusted: true
@@ -28,6 +30,8 @@ brew "adns"
 brew "readline"
 # Advanced Forensic Format
 brew "afflib"
+# Simple, modern, secure file encryption
+brew "age"
 # Creates self documenting CLI programs from commands in YAML files
 brew "ahoy"
 # C string library for manipulating Unicode strings
@@ -247,7 +251,7 @@ brew "docbook"
 # XML vocabulary to create presentation-neutral documents
 brew "docbook-xsl"
 # Pack, ship and run any application as a lightweight container
-brew "docker", link: false
+brew "docker"
 # Bash, Zsh and Fish completion for Docker
 brew "docker-completion"
 # Isolated development environments using Docker
@@ -430,6 +434,8 @@ brew "gts"
 brew "librsvg"
 # Graph visualization software from AT&T and Bell Labs
 brew "graphviz"
+# GNU grep, egrep and fgrep
+brew "grep"
 # Make JSON greppable
 brew "gron"
 # Like cURL, but for gRPC
@@ -442,6 +448,8 @@ brew "gtk4"
 brew "helm"
 # Deploy Kubernetes Helm Charts
 brew "helmfile"
+# Agent multiplexer that lives in your terminal
+brew "herdr"
 # Self-improving AI agent that creates skills from experience
 brew "hermes-agent"
 # Perl compatible regular expressions library
@@ -592,6 +600,10 @@ brew "mmark"
 brew "mongodb-atlas-cli"
 # Cross platform, open source .NET development framework
 brew "mono"
+# Protocol buffers (Google's data interchange format)
+brew "protobuf"
+# Remote terminal application
+brew "mosh"
 # Mass parallel ssh
 brew "mpssh"
 # Library for a binary-based efficient data interchange format
@@ -620,8 +632,6 @@ brew "nuget"
 brew "nvm"
 # Seamless operability between C++11 and Python
 brew "pybind11"
-# Compression/decompression library aiming for high speed
-brew "snappy"
 # Adds an OCR text layer to scanned PDF files
 brew "ocrmypdf"
 # Development kit for the Java programming language
@@ -634,6 +644,8 @@ brew "openjdk@21"
 brew "openspec"
 # Cryptography and SSL/TLS Toolkit
 brew "openssl@1.1"
+# Drop-in replacement for Terraform. Infrastructure as Code Tool
+brew "opentofu"
 # Turn any webpage into a desktop app with Rust with ease
 brew "pake"
 # Shell command parallelization utility
@@ -664,8 +676,6 @@ brew "prips"
 brew "procs"
 # Linter for prose
 brew "proselint"
-# Protocol buffers (Google's data interchange format)
-brew "protobuf"
 # Protocol buffers library
 brew "protobuf-c"
 # Unix pager optimized for psql
@@ -680,6 +690,8 @@ brew "pwgen"
 brew "pyinvoke"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.8"
+# Compression/decompression library aiming for high speed
+brew "snappy"
 # Generic machine emulator and virtualizer
 brew "qemu"
 # Cross-platform application and UI framework
@@ -896,6 +908,8 @@ brew "zsh-navigation-tools"
 brew "zsh-syntax-highlighting"
 # HTTP and WebSocket client worker with ZeroMQ interface
 brew "zurl"
+# The AI coding agent built for the terminal.
+brew "anomalyco/tap/opencode", trusted: true
 # Kubectl Argo Rollouts Plugin.
 brew "argoproj/tap/kubectl-argo-rollouts"
 # Flux MCP Server
@@ -908,6 +922,8 @@ brew "knative-extensions/kn-plugins/func"
 brew "mongodb/brew/mongodb-database-tools"
 # Sound effects and desktop notifications for AI coding agents
 brew "peonping/tap/peon-ping"
+# Portable daemon + CLI that bridges AI coding agents to the Moshi mobile app
+brew "rjyo/moshi/moshi-hook"
 # CLI for out-of-band management of Kubernetes nodes created by Talos
 brew "siderolabs/tap/talosctl"
 # Stripe CLI utility
@@ -1018,6 +1034,8 @@ cask "name-mangler"
 cask "netnewswire"
 # Reverse proxy, secure introspectable tunnels to localhost
 cask "ngrok"
+# Visual workspace for building with Codex and Claude Code
+cask "nimbalyst"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
 # Collaboration platform for API development
@@ -1060,17 +1078,6 @@ cask "wireshark-app"
 cask "zed"
 # Mesh VPN client
 cask "zerotier-one"
-mas "Amphetamine", id: 937984704
-mas "Bear", id: 1091189122
-mas "Bible Study", id: 472790630
-mas "Developer", id: 640199958
-mas "Fantastical", id: 975937182
-mas "Key Codes", id: 414568915
-mas "Keynote", id: 409183694
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
-mas "Ping", id: 1532271726
-mas "Spark", id: 1176895641
 vscode "42crunch.vscode-openapi"
 vscode "4ops.terraform"
 vscode "aaron-bond.better-comments"
