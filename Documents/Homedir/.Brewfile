@@ -156,8 +156,6 @@ brew "cairo"
 brew "libsigc++"
 # Vector graphics library with cross-device output support
 brew "cairomm"
-# Callback framework for C++
-brew "libsigc++@2"
 # Cargo subcommand to easily use LLVM source-based code coverage
 brew "cargo-llvm-cov"
 # Validate CloudFormation templates against the CloudFormation spec
@@ -408,18 +406,8 @@ brew "gowsdl"
 brew "gradle-completion"
 # Open-source build automation tool based on the Groovy and Kotlin DSL
 brew "gradle"
-# Fallback theme for FreeDesktop.org icon themes
-brew "hicolor-icon-theme"
-# Library for handling OpenGL function pointer management
-brew "libepoxy"
-# Toolkit for creating graphical user interfaces
-brew "gtk+3"
 # Package for scientific computing with Python
 brew "numpy"
-# Python 3 bindings for the Cairo graphics library
-brew "py3cairo"
-# GNOME Python bindings (based on GObject Introspection)
-brew "pygobject3"
 # Software for mathematics, science, and engineering
 brew "scipy"
 # Efficient network analysis for Python 3
@@ -440,8 +428,14 @@ brew "grep"
 brew "gron"
 # Like cURL, but for gRPC
 brew "grpcurl"
+# Fallback theme for FreeDesktop.org icon themes
+brew "hicolor-icon-theme"
 # GUI toolkit
 brew "gtk+"
+# Library for handling OpenGL function pointer management
+brew "libepoxy"
+# Toolkit for creating graphical user interfaces
+brew "gtk+3"
 # Toolkit for creating graphical user interfaces
 brew "gtk4"
 # Kubernetes package manager
@@ -550,6 +544,8 @@ brew "lzlib"
 brew "librdkafka"
 # Version of the SSL/TLS protocol forked from OpenSSL
 brew "libressl"
+# Callback framework for C++
+brew "libsigc++@2"
 # Library to Access SMI MIB Information
 brew "libsmi"
 # Very basic terminfo library
@@ -686,6 +682,10 @@ brew "pssh"
 brew "pth"
 # Password generator
 brew "pwgen"
+# Python 3 bindings for the Cairo graphics library
+brew "py3cairo"
+# GNOME Python bindings (based on GObject Introspection)
+brew "pygobject3"
 # Pythonic task management & command execution
 brew "pyinvoke"
 # Interpreted, interactive, object-oriented programming language
@@ -1078,6 +1078,17 @@ cask "wireshark-app"
 cask "zed"
 # Mesh VPN client
 cask "zerotier-one"
+mas "Amphetamine", id: 937984704
+mas "Bear", id: 1091189122
+mas "Bible Study", id: 472790630
+mas "Developer", id: 640199958
+mas "Fantastical", id: 975937182
+mas "Key Codes", id: 414568915
+mas "Keynote", id: 409183694
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Ping", id: 1532271726
+mas "Spark", id: 1176895641
 vscode "42crunch.vscode-openapi"
 vscode "4ops.terraform"
 vscode "aaron-bond.better-comments"
